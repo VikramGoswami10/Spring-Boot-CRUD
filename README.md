@@ -59,9 +59,15 @@ mvn spring-boot:run
 🚀 Your backend will now run on http://localhost:8080.
 
 🔹 3️⃣ Frontend Setup (React.js)
+
 ➤ Navigate to the Frontend Folder
+
 cd emp-frontend
+
 ➤ Install Dependencies
+
 npm install
+
 ➤ Run the Frontend
+
 npm start
