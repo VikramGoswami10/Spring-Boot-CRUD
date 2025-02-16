@@ -41,6 +41,27 @@ The system is designed to **simplify employee record management** with an intuit
 ## 🚀 Getting Started
 
 ### 🔹 1️⃣ Clone the Repository
-```sh
 git clone https://github.com/VikramGoswami10/Spring-Boot-CRUD.git
 cd Spring-Boot-CRUD
+
+🔹 2️⃣ Backend Setup (Spring Boot)
+➤ Configure MySQL Database
+Update the database credentials in application.properties inside src/main/resources/:
+properties
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+Make sure you have MySQL running and create a database named employee_db before starting the backend.
+
+➤ Run the Backend
+cd backend
+mvn spring-boot:run
+🚀 Your backend will now run on http://localhost:8080.
+
+🔹 3️⃣ Frontend Setup (React.js)
+➤ Navigate to the Frontend Folder
+cd emp-frontend
+➤ Install Dependencies
+npm install
+➤ Run the Frontend
+npm start
